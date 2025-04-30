@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+  font-family: "Nunito", serif;
+  background-color: #e6f7e6;
+  }
+  
+
+  :root {
+    --bg-color: #e6f7e6;        /* Light green background */
+    --snd-bf-color: #d4f0d4;    /* Secondary background color */
+    --Title-color:rgb(24, 140, 82);/* light green text */
+    --text-color: #006400;      /* Dark green text */
+    --glow-color: #59B2F4;      /* Accent blue for hover effects */
+
+  }
+/* CONTACT SECTION */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f2f2f2;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  color:var(--Title-color);
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.contact-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #4CAF50;
+}
+
+.contact-info {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.contact-info strong {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color:var(--text-color);
+  text-decoration:underline
+}
+
+.contact-info a {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+  margin-top: 8px;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  color: #4CAF50;
+  text-shadow: 0 0 8px #4CAF50, 0 0 12px #4CAF50;
+  
+}
+
+/* Home Button Style (Outside the card) */
+.home-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50;
+}
